@@ -1,0 +1,7 @@
+As best as I can remember it:
+
+a game of dominos consists of 28 domino tiles. between 0 and 6 dots appear at each end of every tile. Tiles can be reversed during the game, so the tile showing "2-3" can be played as "3-2". You are given a list of N unique domino tiles. Your task is to find any domino tile not on the list and return it in the format "X-Y", where X and Y are digit representing the number of dots on each end of the tile.
+
+given an array of N strings representing unique domino tiles, returns a string representing any tile which is not in the Array A
+
+Given { "0-0", "0-1", "1-2", "2-3"} -> one of missing tiles would be "0-3".
