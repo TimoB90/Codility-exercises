@@ -13,7 +13,7 @@ class Solution {
         Array.Sort(A);
         for (int i = 0 ; i < A.Length; i++)
         {
-            if (A[i] == smallestNumber)
+            if (A[i] > 0 && A[i] == smallestNumber)
             {
                 smallestNumber++;
             }
